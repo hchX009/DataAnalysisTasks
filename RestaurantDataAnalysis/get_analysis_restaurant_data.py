@@ -55,11 +55,11 @@ def read_restaurant_data():
     return new_sheet
 
 
-def write_analysis_purchase_data():
+def write_analysis_purchase_data(new_sheet):
     return
 
 
-def write_analysis_restaurant_data():
+def write_analysis_restaurant_data(new_sheet):
     return
 
 
