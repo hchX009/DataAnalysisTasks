@@ -93,12 +93,3 @@ def write_analysis_restaurant_data(Excel, new_sheet):
         row += 1
     Excel.save('餐饮团购数据整理.xls')
     return
-
-
-if __name__ == '__main__':
-    Excel = xlwt.Workbook()
-    sheet = read_purchase_data()
-    write_analysis_purchase_data(Excel, sheet)
-    sheet = read_restaurant_data()
-    write_analysis_restaurant_data(Excel, sheet)
-    print('Finished!')
