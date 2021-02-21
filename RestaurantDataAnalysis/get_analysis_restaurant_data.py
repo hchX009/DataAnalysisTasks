@@ -11,20 +11,20 @@ def read_purchase_data():
         sheet_row_dict = {}
         sheet_row_dict['团购名'] = sheet.cell(row, 0).value
         sheet_row_dict['店名'] = sheet.cell(row, 1).value
-        sheet_row_dict['购买人数'] = sheet.cell(row, 4).value
+        sheet_row_dict['购买人数'] = int(sheet.cell(row, 4).value)
         evaluation = sheet.cell(row, 5).value
         if evaluation == '暂无评价':
             sheet_row_dict['团购评价'] = 0
         else:
-            sheet_row_dict['团购评价'] = evaluation
+            sheet_row_dict['团购评价'] = float(evaluation)
         discount_value = sheet.cell(row, 8).value
         market_value = sheet.cell(row, 9).value
         if discount_value == '' or market_value == '':
             discount_info = sheet.cell(row, 3).value
             discount_value = re.search(r'仅售(.*?)元', discount_info).group(1)
             market_value = re.search(r'价值(.*?)元', discount_info).group(1)
-        sheet_row_dict['团购价'] = discount_value
-        sheet_row_dict['市场价'] = market_value
+        sheet_row_dict['团购价'] = float(discount_value)
+        sheet_row_dict['市场价'] = float(market_value)
         new_sheet.append(sheet_row_dict)
         # print(sheet_row_dict)
     return new_sheet
@@ -49,7 +49,7 @@ def read_restaurant_data():
             area = area + address[re.search(r'市(.*?)(区|县|市|其他)', address).span()[1] - 1]
         sheet_row_dict['城市'] = city
         sheet_row_dict['行政区'] = area
-        sheet_row_dict['评分'] = sheet.cell(row, 3).value
+        sheet_row_dict['评分'] = float(sheet.cell(row, 3).value)
         new_sheet.append(sheet_row_dict)
         # print(sheet_row_dict)
     return new_sheet
