@@ -1,5 +1,4 @@
 import xlrd  # xlrd 2.0.1版本只支持.xls文件,需要安装1.2.0版本（pip install xlrd==1.2.0）
-import xlwt
 import re
 
 

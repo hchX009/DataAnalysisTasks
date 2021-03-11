@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RestaurantDataAnalysis.iml" filepath="$PROJECT_DIR$/.idea/RestaurantDataAnalysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SaleDataAnalysis/.idea/SaleDataAnalysis.iml" filepath="$PROJECT_DIR$/../SaleDataAnalysis/.idea/SaleDataAnalysis.iml" />
-    </modules>
-  </component>
-</project>
