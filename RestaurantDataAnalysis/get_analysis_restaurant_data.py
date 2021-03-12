@@ -1,3 +1,5 @@
+# 从Excel表格中进行数据清理，得到清理后的数据
+
 import xlrd  # xlrd 2.0.1版本只支持.xls文件,需要安装1.2.0版本（pip install xlrd==1.2.0）
 import re
 

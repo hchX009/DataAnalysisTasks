@@ -1,4 +1,5 @@
 # 得到销售Top10的店铺
+# 通过根据销售额排序的方式取Top10的店铺输出
 
 
 def get_sorted_restaurant_sale_num(purchase_data_sheet):

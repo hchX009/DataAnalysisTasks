@@ -12,4 +12,4 @@ def get_participation_restaurant(purchase_data_sheet):
 
 
 def print_participation_restaurant_num(purchase_data_sheet):
-    print('参与活动的店铺数量：%d' % (get_participation_restaurant(purchase_data_sheet)))
+    print("\n参与活动的店铺数量：%d" % (get_participation_restaurant(purchase_data_sheet)))
