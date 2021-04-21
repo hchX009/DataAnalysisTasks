@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d0db7e0-eda5-4c1f-9a00-5e9bc0d0fb25" name="Default Changelist" comment="hchX009 2020.02.21 commit : 完成销售最多的店铺Top10是哪些" />
+    <list default="true" id="8d0db7e0-eda5-4c1f-9a00-5e9bc0d0fb25" name="Default Changelist" comment="hchX009 2020.02.21 commit : 完成销售最多的店铺Top10是哪些">
+      <change afterPath="$PROJECT_DIR$/get_jd_sale_data_frequency_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_jd_sale_data_in_csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/不同省及自治区销售数据频数分析柱状图.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestaurantDataAnalysis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../RestaurantDataAnalysis/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SaleDataAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SaleDataAnalysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_data_concentrate_tendency.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/青羊区二手房.csv" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +59,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -75,16 +89,16 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="RestaurantDataAnalysis" />
+      <module name="SaleDataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../RestaurantDataAnalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../RestaurantDataAnalysis/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613887134025</updated>
       <workItem from="1613887140345" duration="11516000" />
+      <workItem from="1618886955293" duration="19656000" />
     </task>
     <task id="LOCAL-00001" summary="hchX009 2020.02.21 commit : 完成销售最多的店铺Top10是哪些">
       <created>1613918703634</created>
@@ -140,6 +155,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -151,13 +167,25 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1230" y="376" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1613915679809" />
-    <state x="1038" y="220" key="SettingsEditor" timestamp="1613910271441">
+    <state x="1234" y="153" key="#main" timestamp="1618888644260">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="1038" y="220" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1613910271441" />
+    <state x="1234" y="153" key="#main/0.0.2048.1152@0.0.2048.1152" timestamp="1618888644260" />
+    <state x="1317" y="334" key="FileChooserDialogImpl" timestamp="1618888638526">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1317" y="334" key="FileChooserDialogImpl/0.0.2048.1152@0.0.2048.1152" timestamp="1618888638526" />
+    <state x="1038" y="220" key="SettingsEditor" timestamp="1618887525051">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1038" y="220" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1618887525051" />
     <state x="1129" y="309" key="Vcs.Push.Dialog.v2" timestamp="1613918786826">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1129" y="309" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1613918786826" />
+    <state x="302" y="266" key="editAsTableFormatDialogDimension" timestamp="1618888168937">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="302" y="266" key="editAsTableFormatDialogDimension/0.0.2048.1152@0.0.2048.1152" timestamp="1618888168937" />
   </component>
 </project>
