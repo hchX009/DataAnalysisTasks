@@ -20,15 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d0db7e0-eda5-4c1f-9a00-5e9bc0d0fb25" name="Default Changelist" comment="hchX009 2020.02.21 commit : 完成销售最多的店铺Top10是哪些">
-      <change afterPath="$PROJECT_DIR$/get_jd_sale_data_frequency_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_jd_sale_data_in_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/不同省及自治区销售数据频数分析柱状图.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RestaurantDataAnalysis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../RestaurantDataAnalysis/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SaleDataAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SaleDataAnalysis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_jd_sale_data_correlation_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_jd_sale_data_descriptive_statistics_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/不同地区和销售额的相关性小提琴图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/不同地区和销售额的相关性散点图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/京东超市销售数据的集中趋势分析.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/京东销售数据的两两相关性关系图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/销售对象和物品类别相关性直方图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_data_concentrate_tendency.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_jd_sale_data_frequency_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_jd_sale_data_frequency_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_jd_sale_data_in_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_jd_sale_data_in_csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/青羊区二手房.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613887134025</updated>
       <workItem from="1613887140345" duration="11516000" />
-      <workItem from="1618886955293" duration="19656000" />
+      <workItem from="1618886955293" duration="36194000" />
     </task>
     <task id="LOCAL-00001" summary="hchX009 2020.02.21 commit : 完成销售最多的店铺Top10是哪些">
       <created>1613918703634</created>
